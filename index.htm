@@ -11,7 +11,7 @@
 	<link rel="icon" href="https://npm.elemecdn.com/hassan-assets/img/favicon.png" />
 	<meta name="HandheldFriendly" content="true">
 	<meta name="description"
-		content="程序员给女朋友用HTML5制作的3D相册，使用鼠标拖拽，能看到3D旋转效果，点击相片，相片能放大，移近。程序员发挥自己的专长，这是那些不懂编程的人望尘莫及的。本相册使用了HTML5的画布技术，需要谷歌浏览器或火狐浏览器等现代浏览器才能正常观看。">
+		content="本相册使用了HTML5的画布技术，需要谷歌浏览器或火狐浏览器等现代浏览器才能正常观看。">
 	<meta name="keywords" content="谢菲尔德回忆博物馆,canvas,3D,perspective,texturing,gallery">
 	<link href="res/slider-wb.css" rel="stylesheet">
 	<title>谢菲尔德回忆博物馆</title>
@@ -37,6 +37,12 @@
 			height: 100%;
 			background: #cfeaf8;
 		}
+		
+		.exit {
+                       position: absolute;
+                       top: 5%;
+                       left: 5%;}
+		
 	</style>
 	<script type="text/javascript" src="res/ge1doot.js"></script>
 	<script type="text/javascript" src="res/harris.js"></script>
@@ -397,6 +403,12 @@
 <body>
 	<canvas id="canvas">你的浏览器不支持HTML5画布技术，请使用支持HTML5的浏览器(http://keleyi.com/a/bjac/g039tue3.htm)</canvas>
 	
+ <div class="objects">
+            <div class="exit">
+                <!-- <img class="object_earth" src="./images/" width="100px"> -->
+                <a href="https://kliuu.gitee.io/web/"><img class="exit" src="./image/exit1.jpg" width="80px"></a>
+            </div>
+ </div>	
 </body>
 
 </html>
